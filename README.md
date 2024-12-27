@@ -30,4 +30,10 @@ sudo apt upgrade
 sudo apt -y install ncbi-blast+
 ```
 
+### Let's run
+Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.
+
+```
+java -jar contigPolishing.jar
+```
 
