@@ -38,4 +38,6 @@ java -jar contigPolishing.jar
 ```
 
 ### Screenshots
-
+<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" /> 
+<img src="screenshots/DataandParameters.png" alt="DataandParameters" width="300" height="200" /> 
+<img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> 
