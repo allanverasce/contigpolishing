@@ -37,3 +37,5 @@ Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you
 java -jar contigPolishing.jar
 ```
 
+### Screenshots
+
