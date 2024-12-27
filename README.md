@@ -19,5 +19,15 @@ Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)
 ```
 
+Now, to install BLAST+ (Basic Local Alignment Search Tool) from NCBI on Ubuntu, follow the steps:
+1- Step
+```
+sudo apt update
+sudo apt upgrade
+```
+2- Step
+```
+sudo apt -y install ncbi-blast+
+```
 
 
