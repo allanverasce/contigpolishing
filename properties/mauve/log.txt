@@ -1,0 +1,846 @@
+ref file: org.gel.mauve.contigs.ContigMauveAlignFrame[panel0,0,0,400x383,invalid]
+shown
+Copying...
+	/data/refe/EcoliO26H11str11368REF.gbk
+to
+	/data/refe/alignment1/EcoliO26H11str11368REF.gbk
+Copying...
+	/home/allan/Desktop/Analysis/NGSContigs/Quast/ERR351259_new_treated_similarity.fasta
+to
+	/data/refe/alignment1/ERR351259_new_treated_similarity.fasta
+trying path ./linux-x64/progressiveMauve
+Running alignment.
+Executing 
+  ./linux-x64/progressiveMauve
+    --output=/data/refe/alignment1/alignment1
+    --skip-refinement
+    --weight=200
+    --output-guide-tree=/data/refe/alignment1/alignment1.guide_tree
+    --backbone-output=/data/refe/alignment1/alignment1.backbone
+    /data/refe/alignment1/EcoliO26H11str11368REF.gbk
+    /data/refe/alignment1/ERR351259_new_treated_similarity.fasta
+Storing raw sequence at /tmp/rawseq186858.000
+Sequence loaded successfully.
+/data/refe/alignment1/EcoliO26H11str11368REF.gbk 5697240 base pairs.
+Storing raw sequence at /tmp/rawseq186858.001
+Sequence loaded successfully.
+/data/refe/alignment1/ERR351259_new_treated_similarity.fasta 5568622 base pairs.
+Using weight 15 mers for initial seeds
+Creating sorted mer list
+Create time was: 1 seconds.
+Creating sorted mer list
+Create time was: 1 seconds.
+0%..1%..2%..3%..4%..5%..6%..7%..8%..9%..10%..
+11%..12%..13%..14%..15%..16%..17%..18%..19%..20%..
+21%..22%..23%..24%..25%..26%..27%..28%..29%..30%..
+31%..32%..33%..34%..35%..36%..37%..38%..39%..40%..
+41%..42%..43%..44%..45%..46%..47%..48%..49%..50%..
+51%..52%..53%..54%..55%..56%..57%..58%..59%..60%..
+61%..62%..63%..64%..65%..66%..67%..68%..69%..70%..
+71%..72%..73%..74%..75%..76%..77%..78%..79%..80%..
+81%..82%..83%..84%..85%..86%..87%..88%..89%..90%..
+91%..92%..93%..94%..95%..96%..97%..98%..99%..done.
+using default bp penalty: 200
+using default bp estimate min score: 470935
+Starting with 887 multi-matches
+Computing genome content distance matrix...
+
+
+Genome conservation distance matrix: 
+0	0.0611326
+0.0611326	0
+
+Writing guide tree to /data/refe/alignment1/alignment1.guide_tree
+reading tree...
+initializing alignment tree...
+Constructing seed occurrence lists for repeat detection
+Calculating pairwise breakpoint distances
+Pair 0, 1 has 838 initial LCBs
+Using scaled bp penalty: 365913
+Pair (0,1) has 91 well-supported breakpoints
+genome content distance matrix:
+0	0.0611326
+0.0611326	0
+
+bp distance matrix:
+0.9	0.9
+0.9	0.9
+
+Aligning...
+Aligning node 1 to 2 via 0!
+get ancestral matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 859 tracking matches
+There are 1718 / 2577 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 846 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611326
+
+
+scaling bp penalty by bp weight: 
+0.9
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..done
+Arrived at 171 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 489 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 171 intervals
+Creating ancestral ordering
+Previous anchoring score: -1.79769e+308, new anchor score: 4.07478e+08
+Backing up alignment tree...
+propagating ancestral breakpoints
+recursive anchor search
+0,0 have 963 new matches outside LCBs
+0,0 has an additional 4150 matches
+Restoring backed up alignment tree...
+1,0 has 4150 pairwise matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 2202 tracking matches
+There are 4404 / 6606 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 2065 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611326
+
+
+scaling bp penalty by bp weight: 
+0.9
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..done
+Arrived at 181 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 511 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 181 intervals
+Creating ancestral ordering
+Previous anchoring score: 4.07478e+08, new anchor score: 4.15198e+08
+Backing up alignment tree...
+propagating ancestral breakpoints
+recursive anchor search
+0,0 have 966 new matches outside LCBs
+0,0 has an additional 3513 matches
+Restoring backed up alignment tree...
+1,0 has 3513 pairwise matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 2213 tracking matches
+There are 4426 / 6639 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 2048 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611326
+
+
+scaling bp penalty by bp weight: 
+0.9
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..done
+Arrived at 181 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 510 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 181 intervals
+Creating ancestral ordering
+Previous anchoring score: 4.15198e+08, new anchor score: 4.15162e+08
+propagating ancestral breakpoints
+performing a gapped alignment
+
+0%..1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..87%..88%..89%..
+90%..91%..92%..93%..94%..95%..96%..97%..98%..99%..
+100%..Fix left ends
+
+done.
+root alignment has 181 superintervals
+root alignment length: 6103932
+Organisms have 50.6% GC
+Completed without error.
+Alignment complete!
+This line could not be parsed:                 seq:gga)
+This line could not be parsed:                 seq:gga)
+This line could not be parsed:                 seq:tga)
+This line could not be parsed:                 seq:gta)
+This line could not be parsed:                 seq:gta)
+This line could not be parsed:                 seq:tct)
+This line could not be parsed:                 seq:tcg)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:taa)
+This line could not be parsed:                 seq:gca)
+This line could not be parsed:                 seq:gcc)
+This line could not be parsed:                 seq:cga)
+This line could not be parsed:                 seq:gtt)
+This line could not be parsed:                 seq:ggc)
+This line could not be parsed:                 seq:ggc)
+This line could not be parsed:                 seq:ttc)
+This line could not be parsed:                 seq:tct)
+This line could not be parsed:                 seq:tcg)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:gct)
+This line could not be parsed:                 seq:ccc)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:gag)
+This line could not be parsed:                 seq:ggt)
+This line could not be parsed:                 seq:tgc)
+This line could not be parsed:                 seq:gat)
+This line could not be parsed:                 seq:tgc)
+This line could not be parsed:                 seq:gat)
+This line could not be parsed:                 seq:tgg)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:gtg)
+This line could not be parsed:                 seq:ccg)
+This line could not be parsed:                 seq:cca)
+This line could not be parsed:                 seq:gtc)
+This line could not be parsed:                 seq:ttc)
+This line could not be parsed:                 seq:tca)
+This line could not be parsed:                 seq:gaa)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:cag)
+printing
+printing
+done: /data/refe/alignment1/ERR351259_new_treated_similarity_contigs.tab
+in process. . .
+new lcbs: 172
+placing conflicts
+matching edges
+new group: 5356553, 5285445 false
+rev1: falserev2: true
+new group: 5296592, 2028231 false
+rev1: truerev2: true
+new group: 5198709, 5321116 true
+rev1: truerev2: false
+new group: 4735574, 5151075 true
+rev1: truerev2: false
+new group: 5421742, 5067091 false
+rev1: truerev2: false
+new group: 1910307, 2656031 true
+rev1: falserev2: false
+new group: 4298363, 4925767 true
+rev1: falserev2: false
+new group: 4853296, 5358788 true
+rev1: falserev2: true
+new group: 4425031, 2844780 false
+rev1: falserev2: true
+new group: 5055317, 3725774 false
+rev1: truerev2: true
+new group: 5049389, 4679399 false
+rev1: truerev2: true
+unmatched length: 0
+done with ordered. 1359
+unmatched length: 0
+done with conflicted. 1359
+unmatched length: 0
+done with unordered. 0
+printing
+printing
+printing
+done: /data/refe/alignment1/contigs/ERR351259_new_treated_similarity_contigs.tab
+C: 1
+Copying...
+	/data/refe/alignment1/EcoliO26H11str11368REF.gbk
+to
+	/data/refe/alignment2/EcoliO26H11str11368REF.gbk
+shown
+trying path ./linux-x64/progressiveMauve
+Running alignment.
+Executing 
+  ./linux-x64/progressiveMauve
+    --output=/data/refe/alignment2/alignment2
+    --skip-refinement
+    --weight=200
+    --output-guide-tree=/data/refe/alignment2/alignment2.guide_tree
+    --backbone-output=/data/refe/alignment2/alignment2.backbone
+    /data/refe/alignment2/EcoliO26H11str11368REF.gbk
+    /data/refe/alignment2/ERR351259_new_treated_similarity.fasta
+shown
+Storing raw sequence at /tmp/rawseq186889.000
+Sequence loaded successfully.
+/data/refe/alignment2/EcoliO26H11str11368REF.gbk 5697240 base pairs.
+Storing raw sequence at /tmp/rawseq186889.001
+Sequence loaded successfully.
+/data/refe/alignment2/ERR351259_new_treated_similarity.fasta 5568622 base pairs.
+Using weight 15 mers for initial seeds
+Creating sorted mer list
+Create time was: 1 seconds.
+Creating sorted mer list
+Create time was: 1 seconds.
+0%..1%..2%..3%..4%..5%..6%..7%..8%..9%..10%..
+11%..12%..13%..14%..15%..16%..17%..18%..19%..20%..
+21%..22%..23%..24%..25%..26%..27%..28%..29%..30%..
+31%..32%..33%..34%..35%..36%..37%..38%..39%..40%..
+41%..42%..43%..44%..45%..46%..47%..48%..49%..50%..
+51%..52%..53%..54%..55%..56%..57%..58%..59%..60%..
+61%..62%..63%..64%..65%..66%..67%..68%..69%..70%..
+71%..72%..73%..74%..75%..76%..77%..78%..79%..80%..
+81%..82%..83%..84%..85%..86%..87%..88%..89%..90%..
+91%..92%..93%..94%..95%..96%..97%..98%..99%..done.
+using default bp penalty: 200
+using default bp estimate min score: 470935
+Starting with 886 multi-matches
+Computing genome content distance matrix...
+
+
+Genome conservation distance matrix: 
+0	0.0611951
+0.0611951	0
+
+Writing guide tree to /data/refe/alignment2/alignment2.guide_tree
+reading tree...
+initializing alignment tree...
+Constructing seed occurrence lists for repeat detection
+Calculating pairwise breakpoint distances
+Pair 0, 1 has 776 initial LCBs
+Using scaled bp penalty: 365815
+Pair (0,1) has 8 well-supported breakpoints
+genome content distance matrix:
+0	0.0611951
+0.0611951	0
+
+bp distance matrix:
+0.9	0.0857143
+0.0857143	0.9
+
+Aligning...
+Aligning node 1 to 2 via 0!
+get ancestral matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 860 tracking matches
+There are 1720 / 2580 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 788 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611951
+
+
+scaling bp penalty by bp weight: 
+0.0857143
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..done
+Arrived at 8 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 22 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 8 intervals
+Creating ancestral ordering
+Previous anchoring score: -1.79769e+308, new anchor score: 4.11298e+08
+Backing up alignment tree...
+propagating ancestral breakpoints
+recursive anchor search
+0,0 have 150 new matches outside LCBs
+0,0 has an additional 180 matches
+Restoring backed up alignment tree...
+1,0 has 180 pairwise matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 353 tracking matches
+There are 706 / 1059 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 148 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611951
+
+
+scaling bp penalty by bp weight: 
+0.0857143
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..87%..88%..89%..done
+Arrived at 8 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 20 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 8 intervals
+Creating ancestral ordering
+Previous anchoring score: 4.11298e+08, new anchor score: 4.19457e+08
+Backing up alignment tree...
+propagating ancestral breakpoints
+recursive anchor search
+0,0 have 164 new matches outside LCBs
+0,0 has an additional 185 matches
+Restoring backed up alignment tree...
+1,0 has 185 pairwise matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 389 tracking matches
+There are 778 / 1167 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 180 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611951
+
+
+scaling bp penalty by bp weight: 
+0.0857143
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..done
+Arrived at 8 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 20 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 8 intervals
+Creating ancestral ordering
+Previous anchoring score: 4.19457e+08, new anchor score: 4.19454e+08
+propagating ancestral breakpoints
+performing a gapped alignment
+
+0%..1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..87%..88%..89%..
+90%..91%..92%..93%..94%..95%..96%..97%..98%..99%..
+100%..Fix left ends
+
+done.
+root alignment has 8 superintervals
+root alignment length: 6142803
+Organisms have 50.6% GC
+Completed without error.
+Alignment complete!
+This line could not be parsed:                 seq:gga)
+This line could not be parsed:                 seq:gga)
+This line could not be parsed:                 seq:tga)
+This line could not be parsed:                 seq:gta)
+This line could not be parsed:                 seq:gta)
+This line could not be parsed:                 seq:tct)
+This line could not be parsed:                 seq:tcg)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:taa)
+This line could not be parsed:                 seq:gca)
+This line could not be parsed:                 seq:gcc)
+This line could not be parsed:                 seq:cga)
+This line could not be parsed:                 seq:gtt)
+This line could not be parsed:                 seq:ggc)
+This line could not be parsed:                 seq:ggc)
+This line could not be parsed:                 seq:ttc)
+This line could not be parsed:                 seq:tct)
+This line could not be parsed:                 seq:tcg)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:gct)
+This line could not be parsed:                 seq:ccc)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:gag)
+This line could not be parsed:                 seq:ggt)
+This line could not be parsed:                 seq:tgc)
+This line could not be parsed:                 seq:gat)
+This line could not be parsed:                 seq:tgc)
+This line could not be parsed:                 seq:gat)
+This line could not be parsed:                 seq:tgg)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:gtg)
+This line could not be parsed:                 seq:ccg)
+This line could not be parsed:                 seq:cca)
+This line could not be parsed:                 seq:gtc)
+This line could not be parsed:                 seq:ttc)
+This line could not be parsed:                 seq:tca)
+This line could not be parsed:                 seq:gaa)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:cag)
+in process. . .
+new lcbs: 8
+placing conflicts
+matching edges
+unmatched length: 0
+done with ordered. 1359
+unmatched length: 0
+done with conflicted. 1359
+unmatched length: 0
+done with unordered. 0
+printing
+printing
+printing
+done: /data/refe/alignment2/contigs/ERR351259_new_treated_similarity_contigs.tab
+C: 2
+Copying...
+	/data/refe/alignment2/EcoliO26H11str11368REF.gbk
+to
+	/data/refe/alignment3/EcoliO26H11str11368REF.gbk
+shown
+trying path ./linux-x64/progressiveMauve
+Running alignment.
+Executing 
+  ./linux-x64/progressiveMauve
+    --output=/data/refe/alignment3/alignment3
+    --skip-refinement
+    --weight=200
+    --output-guide-tree=/data/refe/alignment3/alignment3.guide_tree
+    --backbone-output=/data/refe/alignment3/alignment3.backbone
+    /data/refe/alignment3/EcoliO26H11str11368REF.gbk
+    /data/refe/alignment3/ERR351259_new_treated_similarity.fasta
+shown
+Storing raw sequence at /tmp/rawseq186906.000
+Sequence loaded successfully.
+/data/refe/alignment3/EcoliO26H11str11368REF.gbk 5697240 base pairs.
+Storing raw sequence at /tmp/rawseq186906.001
+Sequence loaded successfully.
+/data/refe/alignment3/ERR351259_new_treated_similarity.fasta 5568622 base pairs.
+Using weight 15 mers for initial seeds
+Creating sorted mer list
+Create time was: 1 seconds.
+Creating sorted mer list
+Create time was: 0 seconds.
+0%..1%..2%..3%..4%..5%..6%..7%..8%..9%..10%..
+11%..12%..13%..14%..15%..16%..17%..18%..19%..20%..
+21%..22%..23%..24%..25%..26%..27%..28%..29%..30%..
+31%..32%..33%..34%..35%..36%..37%..38%..39%..40%..
+41%..42%..43%..44%..45%..46%..47%..48%..49%..50%..
+51%..52%..53%..54%..55%..56%..57%..58%..59%..60%..
+61%..62%..63%..64%..65%..66%..67%..68%..69%..70%..
+71%..72%..73%..74%..75%..76%..77%..78%..79%..80%..
+81%..82%..83%..84%..85%..86%..87%..88%..89%..90%..
+91%..92%..93%..94%..95%..96%..97%..98%..99%..done.
+using default bp penalty: 200
+using default bp estimate min score: 470935
+Starting with 886 multi-matches
+Computing genome content distance matrix...
+
+
+Genome conservation distance matrix: 
+0	0.0611949
+0.0611949	0
+
+Writing guide tree to /data/refe/alignment3/alignment3.guide_tree
+reading tree...
+initializing alignment tree...
+Constructing seed occurrence lists for repeat detection
+Calculating pairwise breakpoint distances
+Pair 0, 1 has 778 initial LCBs
+Using scaled bp penalty: 365816
+Pair (0,1) has 9 well-supported breakpoints
+genome content distance matrix:
+0	0.0611949
+0.0611949	0
+
+bp distance matrix:
+0.9	0.0964286
+0.0964286	0.9
+
+Aligning...
+Aligning node 1 to 2 via 0!
+get ancestral matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 857 tracking matches
+There are 1714 / 2571 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 785 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611949
+
+
+scaling bp penalty by bp weight: 
+0.0964286
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..done
+Arrived at 14 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 40 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 14 intervals
+Creating ancestral ordering
+Previous anchoring score: -1.79769e+308, new anchor score: 4.08213e+08
+Backing up alignment tree...
+propagating ancestral breakpoints
+recursive anchor search
+0,0 have 293 new matches outside LCBs
+0,0 has an additional 655 matches
+Restoring backed up alignment tree...
+1,0 has 655 pairwise matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 656 tracking matches
+There are 1312 / 1968 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 444 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611949
+
+
+scaling bp penalty by bp weight: 
+0.0964286
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..87%..88%..89%..
+90%..91%..92%..done
+Arrived at 12 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 31 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 12 intervals
+Creating ancestral ordering
+Previous anchoring score: 4.08213e+08, new anchor score: 4.16193e+08
+Backing up alignment tree...
+propagating ancestral breakpoints
+recursive anchor search
+0,0 have 187 new matches outside LCBs
+0,0 has an additional 261 matches
+Restoring backed up alignment tree...
+1,0 has 261 pairwise matches
+Performing Sum-of-pairs Greedy Breakpoint Elimination
+construct LCB tracking matches
+There are 420 tracking matches
+There are 840 / 1260 components used
+init tracking match LCB tracking
+pairwise score tracking matches
+get pairwise LCBs
+there are 203 pairwise LCBs
+scaling bp penalty by conservation weight:
+0.0611949
+
+
+scaling bp penalty by bp weight: 
+0.0964286
+
+Greedy BPE
+Scoring with scaled breakpoint penalty: 4000
+1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..done
+Arrived at 13 intervals
+Adding unaligned intervals
+addUnalignedIntervals yields 34 intervals
+Merging unaligned intervals
+Marbling gaps
+Propagating descendant breakpoints
+descendant 0(1) has 1 intervals
+descendant 1(2) has 1 intervals
+propagateDescendantBreakpoints yields 13 intervals
+Creating ancestral ordering
+Previous anchoring score: 4.16193e+08, new anchor score: 4.16195e+08
+propagating ancestral breakpoints
+performing a gapped alignment
+
+0%..1%..2%..3%..4%..5%..6%..7%..8%..9%..
+10%..11%..12%..13%..14%..15%..16%..17%..18%..19%..
+20%..21%..22%..23%..24%..25%..26%..27%..28%..29%..
+30%..31%..32%..33%..34%..35%..36%..37%..38%..39%..
+40%..41%..42%..43%..44%..45%..46%..47%..48%..49%..
+50%..51%..52%..53%..54%..55%..56%..57%..58%..59%..
+60%..61%..62%..63%..64%..65%..66%..67%..68%..69%..
+70%..71%..72%..73%..74%..75%..76%..77%..78%..79%..
+80%..81%..82%..83%..84%..85%..86%..87%..88%..89%..
+90%..91%..92%..93%..94%..95%..96%..97%..98%..99%..
+100%..Fix left ends
+
+done.
+root alignment has 12 superintervals
+root alignment length: 6139669
+Organisms have 50.6% GC
+Completed without error.
+Alignment complete!
+This line could not be parsed:                 seq:gga)
+This line could not be parsed:                 seq:gga)
+This line could not be parsed:                 seq:tga)
+This line could not be parsed:                 seq:gta)
+This line could not be parsed:                 seq:gta)
+This line could not be parsed:                 seq:tct)
+This line could not be parsed:                 seq:tcg)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:taa)
+This line could not be parsed:                 seq:gca)
+This line could not be parsed:                 seq:gcc)
+This line could not be parsed:                 seq:cga)
+This line could not be parsed:                 seq:gtt)
+This line could not be parsed:                 seq:ggc)
+This line could not be parsed:                 seq:ggc)
+This line could not be parsed:                 seq:ttc)
+This line could not be parsed:                 seq:tct)
+This line could not be parsed:                 seq:tcg)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:acg)
+This line could not be parsed:                 seq:gct)
+This line could not be parsed:                 seq:ccc)
+This line could not be parsed:                 seq:cat)
+This line could not be parsed:                 seq:gag)
+This line could not be parsed:                 seq:ggt)
+This line could not be parsed:                 seq:tgc)
+This line could not be parsed:                 seq:gat)
+This line could not be parsed:                 seq:tgc)
+This line could not be parsed:                 seq:gat)
+This line could not be parsed:                 seq:tgg)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:gtg)
+This line could not be parsed:                 seq:ccg)
+This line could not be parsed:                 seq:cca)
+This line could not be parsed:                 seq:gtc)
+This line could not be parsed:                 seq:ttc)
+This line could not be parsed:                 seq:tca)
+This line could not be parsed:                 seq:gaa)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:cag)
+This line could not be parsed:                 seq:cag)
+in process. . .
+new lcbs: 12
+placing conflicts
+matching edges
+unmatched length: 0
+done with ordered. 1359
+unmatched length: 0
+done with conflicted. 1359
+unmatched length: 0
+done with unordered. 0
+printing
+printing
+printing
+done: /data/refe/alignment3/contigs/ERR351259_new_treated_similarity_contigs.tab
+C: 3
+shown
