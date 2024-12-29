@@ -22,7 +22,7 @@ java -jar dependencyInstaller.jar
 
 
 ### Step 2: Let's run
-Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.
+<p align="justify">Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.</p>
 
 ```
 java -jar contigPolishing.jar
