@@ -18,6 +18,7 @@ java -jar dependencyInstaller.jar
 ```
 
 - Installation Window: After running the command above, a graphical window will open. Click the "Install" button to begin the installation process.
+<img src="screenshots/Install.png" alt="Install" width="300" height="200" />
 - Administrator Authentication: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
 
 
