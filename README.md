@@ -7,33 +7,22 @@
 
 
 ## Quick Guide for the Impatient
-### How to Check the Java Version on Linux
-Step 1: Open the Terminal
-On Linux, open the terminal using the shortcut `Ctrl + Alt + T` or by searching for “Terminal” in the applications menu.
+
+Step 1: Install Dependencies
+To install the necessary dependencies for contigPolishing, follow the steps below:
+- Open the terminal or command prompt (Ctrl + Alt + T) and navigate to the directory where the dependencyInstaller.jar file is located.
+- Run the following command to start the installer:
+
 ```
-java -version
-```
-We recommend using version 17 or higher to ensure compatibility with ContigPolishing. Like this.
-```
-java version "17.0.12" 2024-07-16 LTS
-Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
-Java HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)
+java -jar dependencyInstaller.jar
 ```
 
-Now, to install BLAST+ (Basic Local Alignment Search Tool) from NCBI on Ubuntu, follow the steps:
-1- Step
-```
-sudo apt update
-sudo apt upgrade
-```
-2- Step
-```
-sudo apt -y install ncbi-blast+
-```
+- Installation Window: After running the command above, a graphical window will open. Click the "Install" button to begin the installation process.
+- Administrator Authentication: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
+
 
 ### Let's run
 Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.
-
 ```
 java -jar contigPolishing.jar
 ```
