@@ -8,7 +8,7 @@
 
 ## Quick Guide for the Impatient
 
-Step 1: Install Dependencies
+### Step 1: Install Dependencies
 To install the necessary dependencies for contigPolishing, follow the steps below:
 - Open the terminal or command prompt (Ctrl + Alt + T) and navigate to the directory where the dependencyInstaller.jar file is located.
 - Run the following command to start the installer:
@@ -21,8 +21,9 @@ java -jar dependencyInstaller.jar
 - Administrator Authentication: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
 
 
-### Let's run
+### Step 2: Let's run
 Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.
+
 ```
 java -jar contigPolishing.jar
 ```
