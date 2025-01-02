@@ -9,19 +9,16 @@
 ## Quick Guide for the Impatient
 
 ### Step 1: Install Dependencies
-To install the necessary dependencies for contigPolishing, follow the steps below:
-- Open the terminal or command prompt (Ctrl + Alt + T) and navigate to the directory where the dependencyInstaller.jar file is located.
-- Run the following command to start the installer:
-
+- Java installation:
 ```
-java -jar dependencyInstaller.jar
+  wget https://download.oracle.com/java/17/archive/jdk-17.0.12_linux-x64_bin.deb
+  sudo apt install -y ./jdk-17.0.12_linux-x64_bin.deb
 ```
-
-- Installation Window: After running the command above, a graphical window will open. Click the "Install" button to begin the installation process.
-<img src="screenshots/Install.png" alt="Install" width="300" height="200" />
-
-- Administrator Authentication: The installer will ask for your sudo password. This is usually the same as your login password. Enter the password and press OK.
-
+- Blast installation
+```
+sudo apt update
+sudo apt install -y ncbi-blast+
+```
 
 ### Step 2: Let's run
 <p align="justify">Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.</p>
