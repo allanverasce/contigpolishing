@@ -9,12 +9,12 @@
 ## Quick Guide 
 
 ### Step 1: Install Dependencies
-- ** Java installation:**
+- Java installation:
 ```
   wget https://download.oracle.com/java/17/archive/jdk-17.0.12_linux-x64_bin.deb
   sudo apt install -y ./jdk-17.0.12_linux-x64_bin.deb
 ```
-- ** Blast installation:**
+- Blast installation:
 ```
 sudo apt update
 sudo apt install -y ncbi-blast+
