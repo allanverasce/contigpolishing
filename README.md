@@ -6,7 +6,7 @@
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/3f178481-786d-4e6f-b46f-7e10732e9ca8" alt="Image" width="50"/>
 
 
-## Quick Guide for the Impatient
+## Quick Guide 
 
 ### Step 1: Install Dependencies
 - Java installation:
