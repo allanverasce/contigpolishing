@@ -46,7 +46,15 @@ java -jar contigPolishing.jar
 
 <img src="screenshots/main1.png" alt="StartWindow" width="800" height="600" />
 
+### Creating your project
+To create a new project, follow the steps below:
+1. Click on the File menu on the main toolbar.
+2. Select the Create Project option.
+3. A new window will appear, allowing you to set up your project.
+4. Enter the name of the project in the appropriate field.
+After entering the name, click the Create button to complete the project creation.
 
+<img src="screenshots/createProject.png" alt="createProject" width="300" height="200" /> 
 
 
 
@@ -54,7 +62,7 @@ java -jar contigPolishing.jar
 
 
 ### Screenshots
-<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" /> <img src="screenshots/DataandParameters.png" alt="DataandParameters" width="300" height="200" /> <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> <img src="screenshots/createProject.png" alt="createProject" width="300" height="200" /> 
+<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" /> <img src="screenshots/DataandParameters.png" alt="DataandParameters" width="300" height="200" /> <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> 
 
 
 
