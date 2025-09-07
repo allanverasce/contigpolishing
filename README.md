@@ -8,7 +8,7 @@
 
 ## Installation and User Guide 
 <p align="justify"> Before you can use ContigPolishing, you need to install the JDK on your machine. Installation varies according to the operation system used. You can download the JDK for the
-main operation system versions from Oracle’s official website. https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html. We recommend using version 17 or higher to ensure compatibility with
+main operation system versions from Oracle’s official website. https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html.</br> We recommend using version 17 or higher to ensure compatibility with
 ContigPolishing. Let’s first check that you already have it installed, then follow the steps below: </p>
 
 ### Step 1: Install Dependencies
@@ -18,8 +18,8 @@ ContigPolishing. Let’s first check that you already have it installed, then fo
   wget https://download.oracle.com/java/17/archive/jdk-17.0.12_linux-x64_bin.deb
   sudo apt install -y ./jdk-17.0.12_linux-x64_bin.deb
 ```
-
-
+Test example:
+<img src="screenshots/javatest.png" alt="TestExample" width="300" height="200" /> 
 
 
 - Blast installation:
