@@ -64,7 +64,18 @@ After clicking the Create button, the user will be directed to the Input Data & 
 
 <img src="screenshots/DataandParameters.png" alt="DataandParameters" width="800" height="600" />
 
+This feature has been developed to make it easier to process multiple datasets of the same genre efficiently.
 
+In the same window (Input Data & Tasks), the user can configure the tasks to be performed and set the corresponding parameter values.
+Available tasks:
+● Redundancy removal: Eliminates redundant sequences to optimize results.
+● Contig extension: Extends contiguous sequences based on the data provided.
+● Recursive execution: Allows tasks to be executed iteratively until the defined criteria
+are reached.
+● Sorting the results: Sorts the results using the GenBank reference file (if provided).
+● Complete or intermediate results:
+  ○ The user can choose to save only the final results.
+  ○ Otherwise, the intermediate results will be discarded.
 
 
 ### Screenshots
