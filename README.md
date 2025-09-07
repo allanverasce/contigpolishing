@@ -43,8 +43,8 @@ java -jar contigPolishing.jar
 1. Create a new project: This allows you to start a new project, setting it up according to your needs.
 2. Load an existing project: Opens a previously saved project, allowing you to continue where you left off.
 3. Stop running the software: Closes the software securely, ensuring that no information is lost.
-4. 
-<img src="screenshots/StartWindow.png" alt="StartWindow" width="800" height="600" />
+
+<img src="screenshots/main1.png" alt="StartWindow" width="800" height="600" />
 
 
 
