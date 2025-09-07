@@ -128,7 +128,7 @@ When you start processing the project, you can follow the progress in real time 
 
 - PDF file as total report: A PDF file generating a final report of the entire processing
 
-<img src="screenshots/report.png" alt="StartWindow" width="800" height="600" />  
+<img src="screenshots/report.png" alt="StartWindow" width="500" height="600" />  
 
 
 
