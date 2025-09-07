@@ -20,7 +20,7 @@ ContigPolishing. Let’s first check that you already have it installed, then fo
 ```
 Test example:
 
-<img src="screenshots/javatest.png" alt="TestExample" width="300" height="400" /> 
+<img src="screenshots/javatest.png" alt="TestExample" width="800" height="600" /> 
 
 
 - Blast installation:
