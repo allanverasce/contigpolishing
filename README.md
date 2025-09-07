@@ -6,7 +6,7 @@
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/3f178481-786d-4e6f-b46f-7e10732e9ca8" alt="Image" width="50"/>
 
 
-## Installation and User Guide 
+# Installation and User Guide 
 <p align="justify"> Before you can use ContigPolishing, you need to install the JDK on your machine. Installation varies according to the operation system used. You can download the JDK for the
 main operation system versions from Oracle’s official website. https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html.</br> We recommend using version 17 or higher to ensure compatibility with
 ContigPolishing. Let’s first check that you already have it installed, then follow the steps below: </p>
@@ -37,7 +37,7 @@ sudo apt install -y ncbi-blast+
 java -jar contigPolishing.jar
 ```
 
-## Main Window
+# Main Window
 <p align="justify"> The Main Window is the starting point for interacting with the software. Here you can perform the following actions via the File menu: </p>
 
 1. Create a new project: This allows you to start a new project, setting it up according to your needs.
@@ -46,6 +46,7 @@ java -jar contigPolishing.jar
 
 <img src="screenshots/main1.png" alt="StartWindow" width="800" height="600" />
 
+-------
 ### Creating your project
 To create a new project, follow the steps below:
 1. Click on the File menu on the main toolbar.
@@ -56,7 +57,7 @@ After entering the name, click the Create button to complete the project creatio
 
 <img src="screenshots/createProject.png" alt="createProject" width="400" height="300"/> 
 
-### Input Data & Tasks window
+# Input Data & Tasks window
 After clicking the Create button, the user will be directed to the Input Data & Tasks window. At this stage, you need to provide the following information:
 1. Input directory: Enter the path where the FASTA file(s) to be processed are located (the extension must be .fasta). Annotated reference file (optional).
 2. If you'd like to order the results, please insert the reference file in GenBank format (extension .gb).
@@ -67,7 +68,7 @@ After clicking the Create button, the user will be directed to the Input Data & 
 This feature has been developed to make it easier to process multiple datasets of the same genre efficiently.
 
 In the same window (Input Data & Tasks), the user can configure the tasks to be performed and set the corresponding parameter values.
-### Available tasks:
+## Available tasks:
 - Redundancy removal: Eliminates redundant sequences to optimize results.
 - Contig extension: Extends contiguous sequences based on the data provided.
 - Recursive execution: Allows tasks to be executed iteratively until the defined criteria are reached.
@@ -76,7 +77,7 @@ In the same window (Input Data & Tasks), the user can configure the tasks to be 
   1. The user can choose to save only the final results.
   2. Otherwise, the intermediate results will be discarded.
 
-### Configurable parameters:
+## Configurable parameters:
 
 - Percentage of flank length: Defines the minimum proportion of the flank that will be considered for extension or sorting.
 - Similarity percentage between flanks: Specifies the minimum identity ratio for combining flanks.
@@ -93,6 +94,30 @@ Once you have finished configuring the input data and setting the parameters, fo
 - The software will start executing the selected tasks, applying the parameters set. Make sure all the settings are correct before starting the process
 
 <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="800" height="600" />
+
+## Loading or Removing Projects
+To manage projects in the Load Window, follow the instructions below:
+Load a project: Select the desired project from the list displayed. Click the Load button to
+open the project and continue processing.
+Remove a project: Select the project you want to delete from the list. Click the Remove
+button to remove it permanently.
+Warning: Make sure you really want to delete a project before confirming the
+removal, as this action is irreversible.
+Monitoring processing
+When you start processing the project, you can follow the progress in real time via the
+Log Area.
+Log area: Displays detailed information on the progress of processing. It shows messages
+about each stage, allowing the user to identify possible errors or bottlenecks in the flow.
+Graph display: After the FASTA file has finished processing, graphs with metric
+evaluations will be displayed automatically.
+For multiple runs, the graphs will show a comparison between the raw dataset and the
+results processed in each run.
+This visualization makes it easier to analyze the impact of each run on the metrics
+evaluated.
+
+
+
+
 
 ### Screenshots
 <img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" />  
