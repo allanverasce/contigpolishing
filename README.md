@@ -102,7 +102,7 @@ To manage projects in the Load Window, follow the instructions below:
 - Remove a project: Select the project you want to delete from the list. Click the Remove button to remove it permanently.
 **Warning:** Make sure you really want to delete a project before confirming the removal, as this action is irreversible.
 
-<img src="screenshots/LoadWindow.png" alt="LoadWindow" width="800" height="600" />
+<img src="screenshots/LoadWindow.png" alt="LoadWindow" width="400" height="300" />
 
 -------
 # Monitoring processing
@@ -112,7 +112,7 @@ When you start processing the project, you can follow the progress in real time 
 - For multiple runs, the graphs will show a comparison between the raw dataset and the results processed in each run.
 - This visualization makes it easier to analyze the impact of each run on the metrics evaluated.
 
-<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" />  
+<img src="screenshots/StartWindow.png" alt="StartWindow" width="400" height="300" />  
 
 -------
 
