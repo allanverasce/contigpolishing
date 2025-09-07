@@ -22,6 +22,7 @@ Test example:
 
 <img src="screenshots/javatest.png" alt="TestExample" width="800" height="600" /> 
 
+**Warning:** If it responds with something like this, you already have Java installed, skip to installing BLAST. Otherwise, follow the steps below.
 
 - Blast installation:
 ```
@@ -30,11 +31,27 @@ sudo apt install -y ncbi-blast+
 ```
 
 ### Step 2: Let's run
-<p align="justify">Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing run the line below.</p>
+<p align="justify">Open the terminal using the shortcut `Ctrl + Alt + T`. From the folder where you downloaded contigPolishing, run the line below.</p>
 
 ```
 java -jar contigPolishing.jar
 ```
+
+## Main Window
+<p align="justify"> The Main Window is the starting point for interacting with the software. Here you can perform the following actions via the File menu: </p>
+
+1. Create a new project: This allows you to start a new project, setting it up according to your needs.
+2. Load an existing project: Opens a previously saved project, allowing you to continue where you left off.
+3. Stop running the software: Closes the software securely, ensuring that no information is lost.
+4. 
+<img src="screenshots/StartWindow.png" alt="StartWindow" width="800" height="600" />
+
+
+
+
+
+
+
 
 ### Screenshots
 <img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" /> <img src="screenshots/DataandParameters.png" alt="DataandParameters" width="300" height="200" /> <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> <img src="screenshots/createProject.png" alt="createProject" width="300" height="200" /> 
