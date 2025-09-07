@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/Logo_contigPo.png" alt="Logo" dth="1%" />
+  <img src="screenshots/Logo_contigPo.png" alt="Logo" width="300" height="300" />
 </p>
 
 # ContigPolishing: A User-Friendly Java GUI for Contig Extension and Refinement.
