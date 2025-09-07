@@ -19,7 +19,8 @@ ContigPolishing. Let’s first check that you already have it installed, then fo
   sudo apt install -y ./jdk-17.0.12_linux-x64_bin.deb
 ```
 Test example:
-<img src="screenshots/javatest.png" alt="TestExample" width="300" height="200" /> 
+
+<img src="screenshots/javatest.png" alt="TestExample" width="300" height="400" /> 
 
 
 - Blast installation:
