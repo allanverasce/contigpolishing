@@ -36,6 +36,11 @@ sudo apt install -y ncbi-blast+
 ```
 java -jar contigPolishing.jar
 ```
+If you want to adjust the amount of memory available on your device, you can use the example below as a guide. Note that we have adjusted it to use 16 GB, but you can adjust it to suit your needs:
+
+```
+java -jar -Xmx16G contigPolishing.jar
+``
 
 # Main Window
 <p align="justify"> The Main Window is the starting point for interacting with the software. Here you can perform the following actions via the File menu: </p>
