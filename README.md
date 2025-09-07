@@ -40,7 +40,8 @@ If you want to adjust the amount of memory available on your device, you can use
 
 ```
 java -jar -Xmx16G contigPolishing.jar
-``
+```
+
 
 # Main Window
 <p align="justify"> The Main Window is the starting point for interacting with the software. Here you can perform the following actions via the File menu: </p>
