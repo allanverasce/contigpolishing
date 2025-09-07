@@ -122,7 +122,7 @@ When you start processing the project, you can follow the progress in real time 
 - For multiple runs, the graphs will show a comparison between the raw dataset and the results processed in each run.
 - This visualization makes it easier to analyze the impact of each run on the metrics evaluated.
 
-<img src="screenshots/StartWindow.png" alt="StartWindow" width="800" height="600" />  
+<img src="screenshots/resultscreen.png" alt="StartWindow" width="800" height="600" />  
 
 -------
 
