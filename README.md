@@ -67,7 +67,7 @@ After clicking the Create button, the user will be directed to the Input Data & 
 This feature has been developed to make it easier to process multiple datasets of the same genre efficiently.
 
 In the same window (Input Data & Tasks), the user can configure the tasks to be performed and set the corresponding parameter values.
-Available tasks:
+### Available tasks:
 - Redundancy removal: Eliminates redundant sequences to optimize results.
 - Contig extension: Extends contiguous sequences based on the data provided.
 - Recursive execution: Allows tasks to be executed iteratively until the defined criteria are reached.
@@ -76,9 +76,26 @@ Available tasks:
   1. The user can choose to save only the final results.
   2. Otherwise, the intermediate results will be discarded.
 
+### Configurable parameters:
+
+- Percentage of flank length: Defines the minimum proportion of the flank that will be considered for extension or sorting.
+- Similarity percentage between flanks: Specifies the minimum identity ratio for combining flanks.
+- Minimum contig length: Determines the minimum size a contig must have to be considered.
+- Minimum overlap length: Establishes the minimum number of bases that two sequences must share to be joined.
+- Number of threads (CPUs): Sets the number of threads the software can use to optimize performance.
+**Warning:** If the user does not change any of the values, the default value for each parameter will be used.
+
+### Starting Processing
+Once you have finished configuring the input data and setting the parameters, follow the steps below to start processing:
+- Click the Finish button to confirm the settings in the Input Data & Tasks window.
+- You will be redirected to the Main Window.
+- In the Main Window, click the Execute button to start processing.
+- The software will start executing the selected tasks, applying the parameters set. Make sure all the settings are correct before starting the process
+
+<img src="screenshots/LoadWindow.png" alt="LoadWindow" width="800" height="600" />
 
 ### Screenshots
-<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" />  <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> 
+<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" />  
 
 
 
