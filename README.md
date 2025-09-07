@@ -141,7 +141,7 @@ When you start processing the project, you can follow the progress in real time 
 
 - PDF file as a full report: At the end of processing, a PDF file is generated containing all the metrics evaluated along with comparative graphs.
 
-<img src="screenshots/report.png" alt="StartWindow" width="500" height="600" />  
+<img src="screenshots/report.png" alt="Report" width="500" height="600" />  
 
 
 
