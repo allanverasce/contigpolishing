@@ -54,7 +54,7 @@ To create a new project, follow the steps below:
 4. Enter the name of the project in the appropriate field.
 After entering the name, click the Create button to complete the project creation.
 
-<img src="screenshots/createProject.png" alt="createProject" width="800" height="600"/> 
+<img src="screenshots/createProject.png" alt="createProject" width="400" height="300"/> 
 
 ### Input Data & Tasks window
 After clicking the Create button, the user will be directed to the Input Data & Tasks window. At this stage, you need to provide the following information:
