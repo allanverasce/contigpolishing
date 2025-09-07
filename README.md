@@ -54,7 +54,7 @@ java -jar -Xmx16G contigPolishing.jar
 2. Load an existing project: Opens a previously saved project, allowing you to continue where you left off.
 3. Stop running the software: Closes the software securely, ensuring that no information is lost.
 
-<img src="screenshots/main1.png" alt="StartWindow" width="800" height="600" />
+<img src="screenshots/main2.png" alt="StartWindow" width="800" height="600" />
 
 -------
 # Creating your project
