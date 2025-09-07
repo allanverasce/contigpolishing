@@ -47,7 +47,7 @@ java -jar contigPolishing.jar
 <img src="screenshots/main1.png" alt="StartWindow" width="800" height="600" />
 
 -------
-### Creating your project
+# Creating your project
 To create a new project, follow the steps below:
 1. Click on the File menu on the main toolbar.
 2. Select the Create Project option.
@@ -57,6 +57,7 @@ After entering the name, click the Create button to complete the project creatio
 
 <img src="screenshots/createProject.png" alt="createProject" width="400" height="300"/> 
 
+-------
 # Input Data & Tasks window
 After clicking the Create button, the user will be directed to the Input Data & Tasks window. At this stage, you need to provide the following information:
 1. Input directory: Enter the path where the FASTA file(s) to be processed are located (the extension must be .fasta). Annotated reference file (optional).
@@ -86,41 +87,48 @@ In the same window (Input Data & Tasks), the user can configure the tasks to be 
 - Number of threads (CPUs): Sets the number of threads the software can use to optimize performance.
 **Warning:** If the user does not change any of the values, the default value for each parameter will be used.
 
-### Starting Processing
+-------
+# Starting Processing
 Once you have finished configuring the input data and setting the parameters, follow the steps below to start processing:
 - Click the Finish button to confirm the settings in the Input Data & Tasks window.
 - You will be redirected to the Main Window.
 - In the Main Window, click the Execute button to start processing.
 - The software will start executing the selected tasks, applying the parameters set. Make sure all the settings are correct before starting the process
 
+-------
+# Loading or Removing Projects
+To manage projects in the Load Window, follow the instructions below: 
+- Load a project: Select the desired project from the list displayed. Click the Load button to open the project and continue processing.
+- Remove a project: Select the project you want to delete from the list. Click the Remove button to remove it permanently.
+**Warning:** Make sure you really want to delete a project before confirming the removal, as this action is irreversible.
+
 <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="800" height="600" />
 
-## Loading or Removing Projects
-To manage projects in the Load Window, follow the instructions below:
-Load a project: Select the desired project from the list displayed. Click the Load button to
-open the project and continue processing.
-Remove a project: Select the project you want to delete from the list. Click the Remove
-button to remove it permanently.
-Warning: Make sure you really want to delete a project before confirming the
-removal, as this action is irreversible.
-Monitoring processing
-When you start processing the project, you can follow the progress in real time via the
-Log Area.
-Log area: Displays detailed information on the progress of processing. It shows messages
-about each stage, allowing the user to identify possible errors or bottlenecks in the flow.
-Graph display: After the FASTA file has finished processing, graphs with metric
-evaluations will be displayed automatically.
-For multiple runs, the graphs will show a comparison between the raw dataset and the
-results processed in each run.
-This visualization makes it easier to analyze the impact of each run on the metrics
-evaluated.
+-------
+# Monitoring processing
+When you start processing the project, you can follow the progress in real time via the Log Area.
+- Log area: Displays detailed information on the progress of processing. It shows messages about each stage, allowing the user to identify possible errors or bottlenecks in the flow.
+- Graph display: After the FASTA file has finished processing, graphs with metric evaluations will be displayed automatically.
+- For multiple runs, the graphs will show a comparison between the raw dataset and the results processed in each run.
+- This visualization makes it easier to analyze the impact of each run on the metrics evaluated.
 
-
-
-
-
-### Screenshots
 <img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" />  
+
+-------
+
+# Expected file structure
+- File with redundancy removed (ending with TratedCuckoo.fasta):
+  **Example:** 5275.2_ASM1659527v2_genomic_TratedCuckoo.fasta
+
+- Final processing FASTA file (with the executions):
+  **Exemple:** GCA_016595275.2_ASM1659527v2_genomic_TratedCuckoo_run1_run2.fasta
+
+- If it has been ordered, the extension will contain the name ordered.fasta:
+  **Exemple:** GCA_016595275.2_ASM1659527v2_genomic_TratedCuckoo_run1_run2_ordered.fasta
+
+- PDF file as total report: A PDF file generating a final report of the entire processing
+
+
 
 
 
