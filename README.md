@@ -56,13 +56,19 @@ After entering the name, click the Create button to complete the project creatio
 
 <img src="screenshots/createProject.png" alt="createProject" width="300" height="200" /> 
 
+### Input Data & Tasks window
+After clicking the Create button, the user will be directed to the Input Data & Tasks window. At this stage, you need to provide the following information:
+1. Input directory: Enter the path where the FASTA file(s) to be processed are located (the extension must be .fasta). Annotated reference file (optional).
+2. If you'd like to order the results, please insert the reference file in GenBank format (extension .gb).
+**Important:** If the ordering task is selected, the input folder must contain only the file you want to order. Otherwise, the software will process all the FASTA files found in the input folder using the same reference.
 
+<img src="screenshots/DataandParameters.png" alt="DataandParameters" width="300" height="200" />
 
 
 
 
 ### Screenshots
-<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" /> <img src="screenshots/DataandParameters.png" alt="DataandParameters" width="300" height="200" /> <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> 
+<img src="screenshots/StartWindow.png" alt="StartWindow" width="300" height="200" />  <img src="screenshots/LoadWindow.png" alt="LoadWindow" width="300" height="200" /> 
 
 
 
