@@ -124,15 +124,18 @@ When you start processing the project, you can follow the progress in real time 
 
 # Expected file structure
 - File with redundancy removed (ending with TratedCuckoo.fasta):
+  
   **Example:** 5275.2_ASM1659527v2_genomic_TratedCuckoo.fasta
 
 - Final processing FASTA file (with the executions):
+  
   **Exemple:** GCA_016595275.2_ASM1659527v2_genomic_TratedCuckoo_run1_run2.fasta
 
 - If it has been ordered, the extension will contain the name ordered.fasta:
+  
   **Exemple:** GCA_016595275.2_ASM1659527v2_genomic_TratedCuckoo_run1_run2_ordered.fasta
 
-- PDF file as total report: A PDF file generating a final report of the entire processing
+- PDF file as a full report: At the end of processing, a PDF file is generated containing all the metrics evaluated along with comparative graphs.
 
 <img src="screenshots/report.png" alt="StartWindow" width="500" height="600" />  
 
