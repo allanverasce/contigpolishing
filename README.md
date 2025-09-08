@@ -151,13 +151,14 @@ If the user is using Windows or macOS, they can choose to perform the installati
 
 ### Notes and Steps on operation in Linux
 
-1. **Step 1** :
+1. **Step 1** : Pull the image and then configure the environment variable
  ```
  docker pull engbio/contigpolishing:v1.0
  xhost +local:docker
  ```
 - To facilitate use, we recommend that you group the files to be processed in a folder, as shown in the example. `mkdir -p ~/dados`
 
+2. **Step 2** : Run the docker command
 ```
 docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/app/contigpolishing/dados engbio/contigpolishing:v1.0
 ```
