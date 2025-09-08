@@ -148,8 +148,7 @@ When you start processing the project, you can follow the progress in real time 
 If the user is using Windows or macOS, they can choose to perform the installation using Docker. Before running the commands, you need to have Docker Engine installed on your machine. The installation process varies slightly depending on your operating system.
 
 - You can find the official instructions and download them at: https://docs.docker.com/engine/install/
-- Add the Docker group (usually already created during installation): `$ sudo groupadd docker`
-- Adds your current user to the group: `sudo usermod -aG docker $USER`
+
 
 
 
