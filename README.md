@@ -149,6 +149,18 @@ If the user is using Windows or macOS, they can choose to perform the installati
 
 - You can find the official instructions and download them at: https://docs.docker.com/engine/install/
 
+### Notes and Steps on operation in Linux
+
+1. **Step 1** :
+ ```
+ docker pull engbio/contigpolishing:v1.0
+ xhost +local:docker
+ ```
+- To facilitate use, we recommend that you group the files to be processed in a folder, as shown in the example. `mkdir -p ~/dados`
+
+```
+docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/app/contigpolishing/dados engbio/contigpolishing:v1.0
+```
 
 
 
