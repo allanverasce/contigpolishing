@@ -164,7 +164,7 @@ If the user is using Windows or macOS, they can choose to perform the installati
 docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/app/contigpolishing/dados engbio/contigpolishing:v1.0
 ```
 
-<img src="screenshots/docker1.png" alt="Docker1" width="500" height="600" />  
+<img src="screenshots/docker1.png" alt="Docker1" width="800" height="600" />  
 
 **Note** After indicating the folder containing your files, the rest of the execution follows the steps already described for configuring tasks, adjusting parameters, and subsequent execution.
 
