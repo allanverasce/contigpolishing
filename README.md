@@ -143,6 +143,7 @@ When you start processing the project, you can follow the progress in real time 
 
 <img src="screenshots/report.png" alt="Report" width="500" height="600" />  
 
+----
 
 # Installation using Docker
 If the user is using Windows or macOS, they can choose to perform the installation using Docker. Before running the commands, you need to have Docker Engine installed on your machine. The installation process varies slightly depending on your operating system.
