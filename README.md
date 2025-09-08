@@ -173,7 +173,7 @@ docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pw
 If you need to allocate more memory to Java (e.g., 16 GB), add the custom command at the end of the Docker run line:
 
 ```
-docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v dados_contigpolishing:/app/contigpolishing/dados engbio/contigpolishing:v1 java -jar -Xmx16G contigPolishing.jar
+docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/app/contigpolishing/dados engbio/contigpolishing:v1 java -jar -Xmx16G contigPolishing.jar
 ```
 
 
