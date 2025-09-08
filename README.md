@@ -157,7 +157,7 @@ If the user is using Windows or macOS, they can choose to perform the installati
  xhost +local:docker
  ```
 - To facilitate use, we recommend that you group the files to be processed in a folder, as shown in the example. `mkdir -p ~/dados`
-- It is worth noting that the same strategy can be followed for annotation files, simply by creating another folder within the FASTA files folder containing the GenBank files.
+- It is worth noting that the same strategy can be followed for annotation files, simply by creating another folder within the FASTA files folder containing the GenBank files. `mkdir -p ~/dados/gb
 
 2. **Step 2** : Run the docker command
 ```
