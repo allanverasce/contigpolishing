@@ -177,7 +177,14 @@ If you need to allocate more memory to Java (e.g., 16 GB), add the custom comman
 docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/app/contigpolishing/dados engbio/contigpolishing:v1.0 java -jar -Xmx16G contigPolishing.jar
 ```
 
+### Notes and Steps on operation in Windows
 
+1. **Step 1**: After downloading the Docker image from Docker Desktop, open the WSL 2 terminal and run the command line below:
+ 
+```
+docker run --rm -it   -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v "$(pwd)/dados:/app/contigpolishing/dados" engbio/contigpolishing:v1.0
+```
 
+<img src="screenshots/windows1.jpeg" alt="Window1" width="800" height="600" />  
 
 
