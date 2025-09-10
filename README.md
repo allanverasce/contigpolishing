@@ -9,6 +9,8 @@
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/e9eef5db-3d9e-419d-bc31-c29c16076146" alt="Image" width="50"/>
 <image src="https://github.com/allanverasce/allanverasce/assets/25986290/3f178481-786d-4e6f-b46f-7e10732e9ca8" alt="Image" width="50"/>
 <img width="98" height="28" alt="image" src="https://github.com/user-attachments/assets/4d98f1e7-ba56-4628-abff-2071f71f9576" />
+<img width="288" height="288" alt="image" src="https://github.com/user-attachments/assets/3406d50a-a37b-4980-976f-61d0cf916957" />
+
 
 
 
