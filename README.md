@@ -28,10 +28,16 @@ Test example:
 
 **Warning:** If it responds with something like this, you already have Java installed, skip to installing BLAST. Otherwise, follow the steps below.
 
-- Blast installation:
+- Blast installation on Linux:
 ```
 sudo apt update
 sudo apt install -y ncbi-blast+
+```
+
+- Blast installation on Mac:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install blast
 ```
 
 ### Step 2: Let's run
@@ -45,6 +51,8 @@ If you want to adjust the amount of memory available on your device, you can use
 ```
 java -jar -Xmx16G contigPolishing.jar
 ```
+
+**Note:** For execution on Mac, the line is the same.
 
 
 # Main Window
