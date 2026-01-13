@@ -13,13 +13,6 @@
 <image src="https://github.com/user-attachments/assets/97a4af37-07f2-4283-ae7d-9a1db3e51d50" alt="Image" width="50"/>
 
 
-
-
-
-
-
-
-
 # Installation and User Guide 
 <p align="justify"> Before you can use ContigPolishing, you need to install the JDK on your machine. Installation varies according to the operation system used. You can download the JDK for the
 main operation system versions from Oracle’s official website. https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html.</br> We recommend using version 17 or higher to ensure compatibility with
@@ -205,4 +198,8 @@ docker run --rm -it   -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v "$
 
 <img src="screenshots/windows1.jpeg" alt="Window1" width="800" height="600" />  
 
+# How to cite us
+
+Rosyely da Silva Oliveira, Nilson César Oliveira Alves Filho, Walter de Barros Gomes Netto, Denis de Castro Silva, Mônica Silva de Oliveira, Ana Carolina Favacho Miranda de Oliveira, Rafael Azevedo Baraúna, Diego Assis das Graças, Artur Silva, Adonney Allan de Oliveira Veras,
+ContigPolishing: A User-Friendly Java GUI for contig extension and refinement in prokaryotic genomes,Gene,Volume 979,2026,149893,ISSN 0378-1119, https://doi.org/10.1016/j.gene.2025.149893.
 
