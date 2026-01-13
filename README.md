@@ -201,5 +201,5 @@ docker run --rm -it   -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v "$
 # How to cite us
 
 Rosyely da Silva Oliveira, Nilson César Oliveira Alves Filho, Walter de Barros Gomes Netto, Denis de Castro Silva, Mônica Silva de Oliveira, Ana Carolina Favacho Miranda de Oliveira, Rafael Azevedo Baraúna, Diego Assis das Graças, Artur Silva, Adonney Allan de Oliveira Veras,
-ContigPolishing: A User-Friendly Java GUI for contig extension and refinement in prokaryotic genomes,Gene,Volume 979,2026,149893,ISSN 0378-1119, https://doi.org/10.1016/j.gene.2025.149893.
+**ContigPolishing: A User-Friendly Java GUI for contig extension and refinement in prokaryotic genomes**,Gene,Volume 979,2026,149893,ISSN 0378-1119, https://doi.org/10.1016/j.gene.2025.149893.
 
